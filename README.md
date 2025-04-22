@@ -1,2 +1,2 @@
 # MSUTX-TreeQSM
-Using TreeQSM (vr. 4.2.0) by InverseTampere around MSU Texas' campus
+Using TreeQSM (vr. 2.4.0) by InverseTampere around MSU Texas' campus
