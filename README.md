@@ -25,9 +25,9 @@ Several studies have revealed that terrestrial Light Detection And Ranging (LiDA
 
 ### QSM_auto:
 > [!IMPORTANT]
-> Located in TreeQSM_auto and the main script is **<ins>a1_myqsmtree.m<ins>**
+> Located in TreeQSM_auto
 
-There are TWO things to do before running script:
+The main script is **<ins>a1_myqsmtree.m<ins>** and there are TWO things to do before running script:
 
 1. All tree point clouds need to be stored in the QSM_Trees folder and have a .pts file extension.
 	- QSM_Trees folder needs to be in the QSM_auto folder and only have the point clouds
@@ -43,7 +43,7 @@ All relevant outputs should be located in QSM_Trees_output
 - Relevant outputs are pics of the point cloud (pts) and the 3D model (cyl), the command window text (diary), and wanted calculated variables (total volume, DBH, run time, etc.)
 
 ### Workspace Scripts
-These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They import the necessary data, create the wanted figure, and saves it as a .png in the Figures folder.
+These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They import the necessary data, create the wanted figures, and saves them as a .png in the Figures folder. You should be able to run them as is if the entire Workspace folder is downloaded.
 
 | Script Name  | Description |
 | ------------- | ------------- |
