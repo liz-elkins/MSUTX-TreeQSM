@@ -27,7 +27,7 @@ Several studies have revealed that terrestrial Light Detection And Ranging (LiDA
 > [!IMPORTANT]
 > Located in TreeQSM_auto
 
-The main script is **<ins>a1_myqsmtree.m<ins>** and there are TWO things to do before running script:
+The main script is [**<ins>a1_myqsmtree.m<ins>**](https://github.com/liz-elkins/MSUTX-TreeQSM/tree/main/TreeQSM_auto/QSM_auto) and there are TWO things to do before running script:
 
 1. All tree point clouds need to be stored in the QSM_Trees folder and have a .pts file extension.
 	- QSM_Trees folder needs to be in the QSM_auto folder and only have the point clouds
