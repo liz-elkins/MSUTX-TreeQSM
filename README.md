@@ -43,6 +43,16 @@ After those are complete, RUN the script.
 All relevant outputs should be located in QSM_Trees_output
 - Relevant outputs are pics of the point cloud (pts) and the 3D model (cyl), the command window text (diary), and wanted calculated variables (total volume, DBH, run time, etc.)
 
+### Workspace Scripts
+These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They import the necessary data, create the wanted figure, and saves it as a .png in the Figures folder.
+
+| Script Name  | Description |
+| ------------- | ------------- |
+| [Bolin_Plus_2025_Box_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Box_Plots.m) | Creates box plots for DBH error % and AGB % difference seprated by tree size and species |
+| [Bolin_Plus_2025_Linear_Reg_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Linear_Reg_Plots.m) | Creates linear regression plots for QSM vs Field DBH and QSM vs Allometric AGB. R^2 is calculated |
+| [Bolin_Plus_2025_MSE_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_MSE_Plots.m) | Creates a 3x3 plot that shows the MSE of different parameter outputs and run times for each tree size group |
+| [Bolin_Plus_2025_Opt_Parameters.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Opt_Parameters.m) | Create a visual of the change in optimized parameters for each tree size group |
+
 
 *****************************************************************
 
