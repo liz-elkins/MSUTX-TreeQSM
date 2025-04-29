@@ -43,7 +43,7 @@ All relevant outputs should be located in QSM_Trees_output
 - Relevant outputs are pics of the point cloud (pts) and the 3D model (cyl), the command window text (diary), and wanted calculated variables (total volume, DBH, run time, etc.)
 
 ### Workspace Scripts
-These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They import the necessary data, create the wanted figures, and saves them as a .png in the Figures folder. You should be able to run them as is if the entire Workspace folder is downloaded.
+These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They import the necessary data, create the wanted figures, and saves them as a .png in the Figures folder. You should be able to run them as is if the entire Workspace folder is downloaded. Example figures are located in the Figure folder.
 
 | Script Name  | Description |
 | ------------- | ------------- |
