@@ -21,14 +21,13 @@ Several studies have revealed that terrestrial Light Detection And Ranging (LiDA
 [1_Tree_Data](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/1_Tree_Data)
 > All tree point clouds separated by size and raw field data avaiable for each tree
 
-## Running Scripts
+# Running Scripts
 
 ### QSM_auto:
-*Located in TreeQSM_auto*
+> [!IMPORTANT]
+> Located in TreeQSM_auto and the main script is **<ins>a1_myqsmtree.m<ins>**
 
-The main script is **<ins>a1_myqsmtree.m<ins>**
-
-There are TWO things to do before running script
+There are TWO things to do before running script:
 
 1. All tree point clouds need to be stored in the QSM_Trees folder and have a .pts file extension.
 	- QSM_Trees folder needs to be in the QSM_auto folder and only have the point clouds
@@ -49,14 +48,13 @@ These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They
 | Script Name  | Description |
 | ------------- | ------------- |
 | [Bolin_Plus_2025_Box_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Box_Plots.m) | Creates box plots for DBH error % and AGB % difference seprated by tree size and species |
-| [Bolin_Plus_2025_Linear_Reg_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Linear_Reg_Plots.m) | Creates linear regression plots for QSM vs Field DBH and QSM vs Allometric AGB. R^2 is calculated |
+| [Bolin_Plus_2025_Linear_Reg_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Linear_Reg_Plots.m) | Creates linear regression plots for QSM vs Field DBH and QSM vs Allometric AGB (R<sup>2</sup> is calculated) |
 | [Bolin_Plus_2025_MSE_Plots.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_MSE_Plots.m) | Creates a 3x3 plot that shows the MSE of different parameter outputs and run times for each tree size group |
 | [Bolin_Plus_2025_Opt_Parameters.m](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/Workspace/Bolin_Plus_2025_Opt_Parameters.m) | Create a visual of the change in optimized parameters for each tree size group |
 
 
 *****************************************************************
-
-If you break the program, email Elizabeth (lizcelkins10@gmail.com)
-	with your name, user status (Grad, Undergrad, GitHub), and the problem with pics if possible.
+> [!WARNING]
+> If you break the program, email Elizabeth (lizcelkins10@gmail.com) with your name, user status (Grad, Undergrad, GitHub), and the problem with pics if possible.
 
 For more info, go to original files TreeQSM-master/README.md or TreeQSM-master/Manual/TreeQSM_documentation
