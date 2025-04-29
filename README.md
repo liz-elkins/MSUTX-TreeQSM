@@ -20,3 +20,33 @@ Several studies have revealed that terrestrial Light Detection And Ranging (LiDA
 
 [1_Tree_Data](https://github.com/liz-elkins/MSUTX-TreeQSM/blob/main/1_Tree_Data)
 > All tree point clouds separated by size and raw field data avaiable for each tree
+
+## Running Scripts
+
+### QSM_auto:
+*Located in TreeQSM_auto*
+
+The main script is **<ins>a1_myqsmtree.m<ins>**
+
+There are TWO things to do before running script
+
+1. All tree point clouds need to be stored in the QSM_Trees folder and have a .pts file extension.
+	- QSM_Trees folder needs to be in the QSM_auto folder and only have the point clouds
+
+2. Change variables if necessary
+   - The number of times you want QSM to run using the QSM_runs variable
+   - The number of trees in the QSM_Trees folder using the variable tree_nums
+   - The inputs if necessary (inputs.PatchDiam1, inputs.PatchDiam2min, inputs.PatchDiam2Max)
+
+After those are complete, RUN the script.
+
+All relevant outputs should be located in QSM_Trees_output
+- Relevant outputs are pics of the point cloud (pts) and the 3D model (cyl), the command window text (diary), and wanted calculated variables (total volume, DBH, run time, etc.)
+
+
+*****************************************************************
+
+If you break the program, email Elizabeth (lizcelkins10@gmail.com)
+	with your name, user status (Grad, Undergrad, GitHub), and the problem with pics if possible.
+
+For more info, go to original files TreeQSM-master/README.md or TreeQSM-master/Manual/TreeQSM_documentation
