@@ -14,7 +14,7 @@ There are TWO things to do before running the script (a1_myqsmtree.m)
 
 1. All tree point clouds need to be stored in one file and have a .pts file extension.
 	This folder needs to be in QSM_auto and only have the point clouds 
-	You will need to change the trees_cloud_file variable to the name of the file
+	You can change the of the point cloud folder using the trees_cloud_file variable
 
 2. Change the number of times you want QSM to run (QSM_runs) and 
 	the number of trees in the folder with the .pts files (tree_nums).
