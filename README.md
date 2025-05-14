@@ -55,6 +55,6 @@ These scripts create figures using the Bolin_Plus_Tree_Data_2025.xlsx file. They
 
 *****************************************************************
 > [!WARNING]
-> If you break the program, email Elizabeth (lizcelkins10@gmail.com) with your name, user status (Grad, Undergrad, GitHub), and the problem with pics if possible.
+> If you break the program, email Elizabeth Elkins (lizcelkins10@gmail.com) or Kashif Mahmud (kashif.mahmud@msutexas.edu) with your name, user status (Grad, Undergrad, GitHub), and the problem with pics if possible.
 
 For more info, go to original files TreeQSM-master/README.md or TreeQSM-master/Manual/TreeQSM_documentation
